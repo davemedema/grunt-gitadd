@@ -1,7 +1,7 @@
 {
   "name": "grunt-gitadd",
   "description": "Add all file contents to the index.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/davemedema/grunt-gitadd",
   "author": {
     "name": "Dave Medema",

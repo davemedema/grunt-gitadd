@@ -60,8 +60,10 @@ module.exports = function(grunt) {
   // ---
   // npm tasks
 
+  grunt.loadNpmTasks('grunt-bumpup');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
+  grunt.loadNpmTasks('grunt-tagrelease');
 
   // ---
   // Task aliases
