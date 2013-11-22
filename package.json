@@ -1,0 +1,48 @@
+{
+  "name": "grunt-gitadd",
+  "description": "Add all file contents to the index.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/davemedema/grunt-gitadd",
+  "author": {
+    "name": "Dave Medema",
+    "email": "davemedema@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davemedema/grunt-gitadd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davemedema/grunt-gitadd/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/davemedema/grunt-gitadd/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "shelljs": "~0.2.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bumpup": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-tagrelease": "~0.2.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "git",
+    "git-add"
+  ]
+}
